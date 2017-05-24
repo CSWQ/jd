@@ -1,0 +1,179 @@
+*{margin: 0px;padding: 0px;}
+a{
+	text-decoration: none;
+}
+.w{width:1190px;margin:0 auto;}
+.w1{width: 1210px;margin: 0 auto;}
+.w3{width: 990px;margin: 0 auto;}
+.td{text-align: center;}
+.good-d{
+	width: 200px;
+	height: 225px;
+}
+li{list-style-type: none;}
+.ce{width: 1px;
+	height: 210px;
+	background: #E7E7E7;
+	display: inline-block;
+	position:relative;
+	 top: 13px;
+}
+.cleanBox-common{
+	width: 390px;
+	height: 444px;
+}
+.cleanBox-top-common{
+	height: 55px;
+	width: 390px;
+}
+.theLeft{
+	float: left;
+}
+.remove{
+	text-decoration:none;
+}
+.block-a{
+	display:inline-block;
+}
+.re-d a:hover{
+	color:#C9504C;
+}
+.entry-b-top{
+	margin-top: 11px;
+}
+.ovef{overflow: hidden;}
+/*细线*/
+.ps-f{
+	width: 1px;
+	height: 20px;
+	background-color: #DEDFE0;
+}
+/*细线END*/
+
+
+/*login*/
+.lo{width:990px;margin: 0 auto;}
+/*login END*/
+
+/*register*/
+.re{width: 1210px;margin:0 auto;}
+/*register END*/
+
+/*最下面一部分*/
+/*多快好省*/
+#slogen{
+	width: 100%;	
+	height:54px;
+	padding: 20px 0;
+	background-color: #F5F5F5;
+}
+#slogen .slogen-cen{
+	margin-left: 195px;
+}
+#slogen .slogen-cen li{
+	width: 245px;
+	height: 54px;
+	margin: auto;
+	line-height: 54px;
+	float:left;
+	text-align: center;
+}
+#slogen .slogen-cen li img{
+	float: left;
+	margin-top: 5px;
+}
+#slogen .slogen-cen li span{
+	float: left;
+	font-size: 20px;
+	font-weight: 600px;
+	margin-left: 5px;
+}
+/*多快好省END*/
+
+/*购物指南一行*/
+#buy{
+	width: 1210px;
+	height: 156px;
+	margin: auto;
+	margin-top: 20px;
+}
+#buy ul{
+	width: 266px;
+	height: 156px;
+	float: left;
+}
+#buy ul p{
+	color: #666666;
+	margin-bottom: 10px;
+}
+#buy ul li{
+	width: 100%;
+	height: 20px;
+}
+#buy ul li a{
+	text-decoration: none;
+	color: #747474;
+	font-size: 12px;
+}
+#buy ul li a:hover{
+	color: #C94830;
+}
+#buy .buy-t{
+	width: 96.8px;
+}
+/*购物指南一行END*/
+/*最后的文字*/
+#footer{
+	width:1210px;
+	height: 146px;
+	margin: auto;
+	border-top: 1px solid #E5E5E5;
+	margin-top: 20px;
+	padding: 20px 0 30px 0;
+}
+#footer .f-link{
+	width: 1210px;
+	height: 18px;
+	text-align: center;
+	font-size: 12px;
+}
+#footer .f-link a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #747474;
+	margin: 0 10px;
+	position:relative;
+}
+#footer .f-link a:hover{
+	color: #C82B30;
+}
+#footer .f-link2{
+	margin-top: 10px;
+}
+#footer .f-link span{
+	font-size: 12px;
+	color: #747474;
+	margin: 0 10px;
+}
+#footer .f-link .img-link{
+	position: absolute;
+	top: 0;
+	left: -20px;
+}
+#footer .f-link3{
+	margin-top: 5px;
+}
+#footer .f-link4{
+	display: inline-block;
+	height: 32px;
+}
+#footer .fd-link{
+	height: 32px;
+}
+/*最后的文字END*/
+/*最下面一部分END*/
+
+.w2{
+	width: 1210px;
+	margin: auto;
+}

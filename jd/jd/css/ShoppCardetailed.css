@@ -1,0 +1,993 @@
+/*头部导航条*/
+#header{
+	width: 100%;
+	height: 30px;
+	background-color: RGB(241,241,241);
+}
+#header .header-list{
+	height: 30px;
+}
+#header .fl{
+	width: 97px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+}
+#header .add1{
+	font-size:12px;
+	color: RGB(115,115,115);
+	float: left;
+}
+#header .add2{
+	float: left;
+	font-size: 12px;
+	color: RGB(115,115,115);
+}
+#header .add2 .addj{
+	font-size: 16px;
+	float:left;
+}
+#header .fr{
+	width: auto;
+	height: 30px;
+	float: right;
+}
+#header .fr .user{
+	padding: 0 7px 0 15px;
+	height: 30px;
+	font-size: 12px;
+	color: RGB(115,115,115);
+	line-height: 30px;
+	float: left;
+	margin-right: 10px;
+}
+#header .fr .user .user-c{
+	cursor: pointer;
+	float: left;
+}
+#header .fr .user .user-c:hover{
+	color: RGB(200,80,76);
+}
+#header .fr .user-p{
+	width: 38px;
+	height: 16px;
+	background-image: url(../img/user-plus-status.png);
+	background-position: 0px -1px;
+	float: left;
+	margin:8px 0 0 5px;
+}
+#header .user-sp{
+	float: left;
+	font-size: 18px;
+	margin-left: 5px;
+}
+#header .fr .user-ps{
+	width: 1px;
+	height: 10px;
+	background-color: RGB(221,221,221);
+	float: left;
+	margin-top: 10px;
+}
+#header .fr .user-li{
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	padding: 0 10px;
+	float: left;
+}
+#header .fr .user-li .user-lia{
+	color: RGB(102,106,110);
+	float: left;
+}
+#header .fr .user-li .user-lisp{
+	color: RGB(102,106,110);
+	float: left;
+}
+
+#header .fr .user-li .user-lia:hover{
+	color: RGB(201,80,69);
+}
+#header .userj{
+	font-size: 16px;
+	float: left;
+	color: RGB(106,106,106);
+	margin-left: 5px;
+}
+#header .pho{
+	width: 15px;
+	height: 20px;
+	float: left;
+	background-image: url(../img/jd2015img.png);
+	margin:5px 5px 0 0;
+}
+/*头部导航条END*/
+/*头部logo*/
+.d-header{
+	height: 66px;
+	padding: 20px 0 10px 0;
+}
+#logo{
+	width: 270px;
+	height: 66px;
+	float: left;
+}
+#logo .logo-a img{
+	float: left;
+}
+#logo .logo-a span{
+	font-size: 20px;
+	color: RGB(51,51,51);
+	margin: 20px 0 0 15px;
+	float: left;
+}
+#sfle{
+	width: 480px;
+	height: 30px;
+	float: right;
+	padding-top: 20px;
+}
+#sfle .sfle-first{
+	width: 160px;
+	height: 30px;
+	float: left;
+}
+#sfle .sfle-first .first-line{
+	width: 160px;
+	height: 6px;
+	background-color: RGB(202,236,182);
+	border-radius: 6px;
+	margin-top: 10px;
+	position: relative;
+}
+#sfle .sfle-first .first-line i{
+	display: block;
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: -9px;
+	left: 67px;
+	background-image:url(../img/step2013.png);
+	background-position: -46px 0px;
+	font-style: normal;
+	line-height: 23px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+#sfle .sfle-first .first-text{
+	font-size: 12px;
+	color: RGB(202,236,182);
+	text-align: center;
+	margin-top: 10px;
+}
+#sfle .sfle-third{
+	width: 160px;
+	height: 30px;
+	float: left;
+	position: relative;
+}
+#sfle .sfle-third2{
+	position: absolute;
+	left: -5px;
+	z-index: 1;
+}
+#sfle .sfle-third .third-line{
+	width: 160px;
+	height: 6px;
+	background-color: RGB(122,189,84);
+	border-radius: 6px;
+	margin-top: 10px;
+	position: relative;
+}
+#sfle .sfle-third .third-line i{
+	display: block;
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: -9px;
+	left: 67px;
+	background-image:url(../img/step2013.png);
+	background-position: -23px 0px;
+	font-style: normal;
+	line-height: 23px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+#sfle .sfle-third .third-text{
+	font-size: 12px;
+	color: RGB(122,189,84);
+	text-align: center;
+	margin-top: 10px;
+}
+#sfle .sfle-second{
+	width: 160px;
+	height: 30px;
+	float: left;
+	position: relative;
+}
+#sfle .sfle-second2{
+	position: absolute;
+	left: -5px;
+	z-index: 2;
+}
+#sfle .sfle-second .second-line{
+	width: 160px;
+	height: 6px;
+	background-color: RGB(122,189,84);
+	border-radius: 6px;
+	margin-top: 10px;
+	position: relative;
+}
+#sfle .sfle-second .second-line i{
+	display: block;
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: -9px;
+	left: 67px;
+	background-image:url(../img/step2013.png);
+	background-position: -23px 0px;
+	font-style: normal;
+	line-height: 23px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+#sfle .sfle-second .second-text{
+	font-size: 12px;
+	color: RGB(122,189,84);
+	text-align: center;
+	margin-top: 10px;
+}
+#sfle .sfle-third{
+	width: 160px;
+	height: 30px;
+	float: left;
+	position: relative;
+}
+#sfle .sfle-third2{
+	position: absolute;
+	left: -10px;
+	z-index: 1;
+}
+#sfle .sfle-third .third-line{
+	width: 160px;
+	height: 6px;
+	background-color: RGB(204,204,204);
+	border-radius: 6px;
+	margin-top: 10px;
+	position: relative;
+}
+#sfle .sfle-third .third-line i{
+	display: block;
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: -9px;
+	left: 67px;
+	background-image:url(../img/step2013.png);
+	background-position: -114px 0px;
+	font-style: normal;
+	line-height: 23px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+#sfle .sfle-third .third-text{
+	font-size: 12px;
+	color: RGB(204,204,204);
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*头部logoEND*/
+
+/*核对订单信息*/
+#containter{
+	width: 100%;
+	height: auto;
+	margin-bottom: 40px;
+}
+#containter .main{
+	height: auto;
+}
+/*订单信息头部*/
+#cheockout{
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+	color: RGB(102,102,102);
+}
+/*订单信息头部END*/
+/*核对信息内容*/
+#cheockout-step{
+	height: 788px;
+	width: 948px;
+	padding: 0 20px;
+	border: 1px solid RGB(240,240,240);
+}
+/*收货人信息*/
+#step-tip{
+	height: 145px;
+}
+#step-tip .tip-top{
+	height: 40px;
+	line-height: 40px;
+}
+#step-tip .tip-top h3{
+	font-size: 14px;
+	float: left;
+}
+#step-tip .tip-top a{
+	font-size:12px;
+	color: RGB(63,114,172);
+	float: right;
+}
+#step-cont{
+	height: 110px;
+	border-bottom: 1px solid RGB(230,230,230);
+	float: left;
+}
+#step-cont .cont1{
+	width: 908px;
+	height: 42px;
+	margin-left: 20px;
+}
+#step-cont .cont1 .cont1-left{
+	width: 140px;
+	height: 26px;
+	border: 2px solid RGB(228,57,60);
+	float: left;
+	margin-top: 5px;
+	line-height: 26px;
+	text-align: center;
+	position: relative;
+	
+}
+#step-cont .cont1 .cont1-left a{
+	display: block;
+	color: RGB(106,106,116);
+	font-size: 12px;
+}
+#step-cont .cont1 .cont1-left p{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-image: url(../img/selected-icon.png);
+}
+#step-cont .cont1 .cont1-right{
+	width: 764px;
+	height: 42px;
+	float: left;
+	font-size: 12px;
+	color: RGB(116,116,111);
+	line-height: 42px;
+}
+#step-cont .cont1 .cont1-right .rigth-sp1{
+	margin-left: 10px;
+}
+#step-cont .cont2{
+	width: 908px;
+	height: 53px;
+	border-top: 1px solid RGB(230,230,230);
+	margin: 10px 0 0 20px;
+}
+#cont2-left{
+	width: 142px;
+	height: 28px;
+	border: 1px solid RGB(221,221,221);
+	margin-top: 13px;
+	line-height: 28px;
+	float: left;
+}
+#cont2-left:hover{
+	border: 2px solid RGB(228,57,60);
+}
+#cont2-left .cont2-lefta{
+	display: block;
+	font-size: 12px;
+	color: RGB(116,116,116);
+}
+#cont2-left .cont2-lefta i{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url(../img/pick-rec-icon.png);
+	float: left;
+	margin: 5px 5px 0 30px;
+}
+#cont2-right{
+	height: 54px;
+	float: left;
+	font-size: 12px;
+	color: RGB(102,102,102);
+	line-height: 54px;
+}
+#cont2-right span{
+	margin-left: 10px;
+}
+/*收货人信息END*/
+/*支付详情*/
+#payInfo{
+	width: 948px;
+	height: 470px;
+	float: left;
+}
+/*支付方式*/
+#step-pay{
+	width: 948px;
+	height: 100px;
+	border-bottom: 1px solid RGB(230,230,230);
+}
+#step-pay .pay-top{
+	height: 30px;
+	margin-top: 20px;
+	float: left;
+}
+#step-pay .pay-top h3{
+	font-size: 14px;
+}
+#step-pay .pay-bottom{
+	width: 948px;
+	height: 40px;
+	float: left;
+}
+#step-pay .pay-bottom .pay-btul{
+	width: 928px;
+	height: 30px;
+	margin-left: 20px;
+}
+#step-pay .pay-bottom .pay-btli{
+	width: 98px;
+	height: 30px;
+	margin-right: 10px;
+	float: left;
+}
+#step-pay .pay-bottom .pay-btli .pay-item{
+	width: 96px;
+	height: 28px;
+	border: 1px solid #ddd;
+	line-height: 28px;
+	font-size: 12px;
+	color: RGB(116,116,116);
+	text-align: center;
+	cursor: pointer;
+}
+#step-pay .pay-bottom .pay-btli .pay-item:hover{
+	color: RGB(228,57,60);
+	border: 2px solid RGB(228,57,60);
+}
+#step-pay .pay-bottom .pay-btli .pay-online{
+	border: 2px solid RGB(228,57,60);
+	position: relative;
+}
+#step-pay .pay-bottom .pay-btli .pay-online i{
+	display: block;
+	width: 12px;
+	height: 12px;
+	background-image: url(../img/selected-icon.png);
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#step-pay .pay-bottom .pay-btlim{
+	width: 62px;
+	height: 28px;
+	float: left;
+	font-size: 12px;
+	color:RGB(116,116,116);
+}
+#step-pay .pay-bottom .pay-btlim span{
+	float: left;
+	margin:7px 5px 0 10px;
+}
+#step-pay .pay-bottom .pay-btlim b{
+	display: inline-block;
+	width: 9px;
+	height: 10px;
+	background-image: url(../img/pay-i.png);
+	margin-top: 10px;
+}
+/*支付方式END*/
+/*送货清单*/
+#shopp-list{
+	width: 948px;
+	height: 369px;
+	margin-top: 10px;
+}
+#Shlist-top{
+	height: 30px;
+	padding-top: 10px;
+}
+#Shlist-top h3{
+	font-size:14px;
+	float: left;
+}
+#Shlist-top .Shlist-topRig{
+	height: 30px;
+	width: 240px;
+	float: right;
+}
+#Shlist-top .Shlist-topRig .Shlist-a1{
+	font-size: 12px;
+	float: right;
+	color: RGB(63,114,172);
+	margin-left: 40px;
+}
+#Shlist-top .Shlist-topRig .Shlist-a1:hover{
+	color: RGB(201,80,76);
+}
+#Shlist-top .Shlist-topRig .Shlist-a2{
+	font-size: 12px;
+	float: right;
+	color: RGB(63,114,172);
+}
+#Shlist-top .Shlist-topRig .Shlist-a2 b{
+	display: inline-block;
+	width: 24px;
+	height: 20px;
+	float: left;
+	background-image: url(../img/presale-icon.png);
+}
+#Shlist-text{
+	width: 948px;
+	height: 319px;
+}
+/*配送方式*/
+#list-way{
+	width: 300px;
+	height: 299px;
+	padding: 10px 10px 10px 20px;
+	background-color:RGB(247,247,247);
+	float: left;
+}
+#list-way .text-top{
+	width: 300px;
+	height: 24px;
+	line-height: 24px;
+}
+#list-way .text-top h3{
+	font-size: 12px;
+	float: left;
+}
+#list-way .text-top .text-topRig{
+	float: right;
+	font-size: 12px;
+	color: RGB(61,113,172);
+}
+#list-way .text-top .text-topRig b{
+	display: inline-block;
+	width: 24px;
+	height: 20px;
+	background-image: url(../img/presale-icon.png);
+	float: left;
+	margin: 3px 3px 0 0;
+}
+#text-tab{
+	width:300px;
+	height: 30px;
+	padding:10px 0 20px;
+}
+#text-tab .text-tab-p{
+	width:141px;
+	height: 28px;
+	border: 2px solid RGB(228,57,60);
+	line-height: 28px;
+	text-align: center;
+	font-size: 12px;
+	color: RGB(115,106,102);
+	position: relative;
+}
+#text-tab .text-tab-p i{
+	width: 12px;
+	height: 12px;
+	background-image:url(../img/selected-icon.png);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+#shopment{
+	width: 300px;
+	height: auto;
+}
+#shopment .shopment-li1{
+	width: 300px;
+	height: 22px;
+	padding: 5px 0;
+}
+#shopment .shopment-li1 span{
+	font-size: 12px;
+	color: RGB(158,158,158);
+	float: left;
+}
+#shopment .shopment-li1 p{
+	font-size: 12px;
+	color: RGB(102,102,102);
+	float: left;
+}
+#shopment .shopment-li1 a{
+	float: right;
+	font-size: 12px;
+	color: RGB(61,113,172);
+}
+#shopment .shopment-li1 a:hover{
+	color: RGB(200,72,76);
+}
+#shopment .shopment-li2{
+	width: 300px;
+	height: 34px;
+	border-bottom: 1px solid RGB(221,221,221);
+}
+#shopment-tips{
+	width: 206px;
+	height: 26px;
+	border: 1px solid RGB(237,210,139);
+	background-color: RGB(255,253,238);
+	float: right;
+	padding: 0 5px;
+}
+#shopment-tips i{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin: 7px 5px;
+	background-image: url(../img/purchase-tips-new.png);
+}
+#shopment-tips .shopment-tipsa1{
+	font-size: 12px;
+	color: RGB(63,113,171);
+	float: left;
+	line-height: 26px;
+	margin-right: 8px;
+}
+#shopment-tips .shopment-tips-sp{
+	font-size: 12px;
+	color: RGB(89,88,86);
+	line-height: 26px;
+}
+#shopment .shopment-li3{
+	width: 300px;
+	height: 59px;
+	padding: 5px 0;
+}
+#shopment .shopment-li3 .exchange{
+	width: 60;
+	font-size: 12px;
+	color: RGB(161,161,161);
+	float: left;
+}
+#exchange-right{
+	width: 240px;
+	height: 59px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+#exchange-right .exchange-in{
+	margin: 5px 0 0 3px;
+	float: left;
+}
+#exchange-right .exchange-sp{
+	font-size: 12px;
+	color: RGB(115,115,115);
+	float: left;
+	margin: 3px 0 0 3px;
+}
+#exchange-right .exchange-sp2{
+	font-size: 12px;
+	color: RGB(115,115,115);
+	float: right;
+	margin: 3px 0 0 0px;
+}
+#exchange-right b{
+	display: block;
+	width: 9px;
+	height: 9px;
+	background-image: url(../img/sprite.png);
+	background-position: -29px 3px;
+	position: absolute;
+	right: 57px;
+	bottom: 13px;
+}
+#shopment .shopment-li4{
+	width: 298px;
+	height: 38px;
+	border: 1px solid RGB(224,199,255);
+	border-radius: 4px;
+	background-image: url(../img/618-tips-01.png);
+}
+#shopment .shopment-li4 .shopment-li4-sp{
+	font-size: 12px;
+	line-height: 38px;
+	margin-left: 38px;
+	color: RGB(158,113,205);
+}
+#shopment-bottom{
+	font-size: 12px;
+	margin-top: 20px;
+}
+/*配送方式END*/
+/*京东自营*/
+#good-list{
+	width: 616px;
+	height: 319px;
+	float: left;
+	background-color: RGB(243,251,254);
+}
+#good-list .good-list-top{
+	height: 24px;
+	width: 576px;
+	padding: 0 20px;
+	margin-top: 13px;
+}
+#good-list .good-list-top h3{
+	font-size: 12px;
+	color: RGB(102,102,102);
+}
+#goods-suit-tit{
+	width: 576px;
+	height: 20px;
+	padding: 0 20px;
+}
+#goods-suit-tit .goods-suit-sp{
+	padding: 2px 10px;
+	background-color: RGB(228,57,60);
+	font-size: 12px;
+	color: #fff;
+}
+#goods-suit-tit b{
+	font-size: 12px;
+	color: RGB(102,102,102);
+	margin-left: 5px;
+}
+#goods-item{
+	width: 576px;
+	height: 112px;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+#goods-item .goods-item-img{
+	width: 79px;
+	height: 79px;
+	float: left;
+	border: 1px solid RGB(221,221,221);
+}
+#goods-item .goods-item-img img{
+	max-width: 79px;
+}
+#goods-gel{
+	width: 485px;
+	height: 112px;
+	float: left;
+	margin-left: 10px;
+}
+#goods-gel .goods-gel-left{
+	width: 241px;
+	height: 112px;
+	float: left;
+}
+#goods-gel .goods-gel-left .gel-left-a{
+	font-size: 12px;
+	color: RGB(102,102,125);
+}
+#goods-gel .goods-gel-left .gel-left-p{
+	font-size: 12px;
+	margin-top: 10px;
+	color: RGB(115,133,183);
+}
+#goods-gel .goods-gel-left .gel-left-p i{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url(../img/purchase-icon-201704.png);
+	background-position: 0 -84px;
+	float: left;
+	margin-right:5px;
+}
+#goods-gel .goods-gel-right{
+	width: 234px;
+	height: 112px;
+	float: left;
+	margin-left: 10px;
+}
+#goods-gel .goods-gel-right-p{
+	width: 234px;
+	height: 18px;
+	font-size: 12px;
+	color: RGB(115,106,102);
+}
+#goods-gel .goods-gel-right-p .goods-gel-right-sp{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	color: RGB(230,87,60);
+	font-weight: 600;
+}
+#goods-gel .goods-gel-right-p .goods-gel-right-sp1{
+	display: inline-block;
+	width: 70px;
+	text-align: right;
+}
+#goods-gel .goods-gel-right-p .goods-gel-right-sp2{
+	display: inline-block;
+	width: 50px;
+	text-align: right;
+}
+#goods-gel .goods-gel-right-p .goods-gel-right-sp3{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	margin-top: 5px;
+}
+#service-item{
+	height: 30px;
+	width: 576px;
+	border-top: 1px solid RGB(230,230,230);
+	margin-left: 20px;
+}
+#service-item .service-sp{
+	display: inline-block;
+	width: 388px;
+	font-size: 12px;
+	float: left;
+	color: RGB(102,102,102);
+	margin-top: 10px;
+}
+#service-item b{
+	font-size: 12px;
+	color: RGB(228,57,60);
+	float: left;
+	margin-top: 10px;
+}
+/*京东自营END*/
+/*送货清单END*/
+/*支付详情END*/
+/*发票信息*/
+#step-tit{
+	width: 948px;
+	height: 90px;
+	float: left;
+	border-top: 1px solid RGB(230,230,230);
+	border-bottom: 1px solid RGB(230,230,230);
+	margin-top: 20px;
+}
+#step-tit .st-tit-mes{
+	font-size:12px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+}
+#step-tit .tit-cont{
+	width: 928px;
+	height: 28px;
+	padding: 5px 0 5px 20px;
+	font-size: 12px;
+	color: RGB(102,102,116);
+}
+#step-tit .tit-cont .tit-cont-sp1{
+	margin-right: 20px;
+}
+#step-tit .tit-cont a{
+	color: RGB(63,114,172);
+}
+#step-tit .tit-cont a:hover{
+	color: RGB(200,43,55);
+}
+/*发票信息END*/
+#pay-bottom{
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+}
+#pay-bottom h3{
+	font-size: 14px;
+	line-height: 40px;
+	float: left;
+}
+#pay-bottom p{
+	width: 14px;
+	height: 8px;
+	float: left;
+	background-image: url(../img/arrow-down.png);
+	margin: 17px 0 0 5px;
+}
+/*核对信息内容END*/
+/*商品价格明细*/
+#order-summary{
+	width: 990px;
+	height: 155px;
+}
+#order-summary .summary-list{
+	width: 300px;
+	height: 145px;
+	margin: 0 20px 10px 0;
+	float: right;
+}
+#order-summary .su-list-li1{
+	height: 24px;
+	width: 300px;
+	font-size: 12px;
+	text-align: right;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+#order-summary .su-list-li1 .su-list-sp{
+	display: inline-block;
+	width: 180px;
+	height: 24px;
+	float: left;
+	color: RGB(116,106,102);
+}
+#order-summary .su-list-li1 .su-list-sp .list-s{
+	color: RGB(228,57,114);
+}
+#order-summary .su-list-li1 .su-list-sp2{
+	display: inline-block;
+	width: 120px;
+	height: 24px;
+	float: left;
+	color: RGB(51,51,51);
+	font-weight: 500;
+}
+/*商品价格明细END*/
+/*应付金额*/
+#trade-foot{
+	width: 980px;
+	height: 50px;
+	background-color: RGB(244,244,244);
+	border-top: 1px solid RGB(230,230,230);
+	padding: 15px 10px 15px 0;
+}
+#trade-foot .trade-foot-top{
+	height: 25px;
+	line-height: 25px;
+	text-align: right;
+	margin-right: 10px;
+}
+#trade-foot .trade-foot-top span{
+	font-size: 12px;
+}
+#trade-foot .trade-foot-top b{
+	font-size: 18px;
+	color: RGB(228,57,60);
+	float: right;
+	margin-left: 20px;
+}
+#trade-foot .trade-foot-bottom{
+	height: 25px;
+	font-size: 12px;
+	color: RGB(158,158,158);
+	line-height: 25px;
+	text-align: right;
+	margin-right: 10px;
+}
+#trade-foot .trade-foot-bottom .foot-bottom-sp1{
+	margin-right: 20px;
+}
+/*应付金额END*/
+/*提交按钮*/
+#checkout-buttons{
+	width: 990px;
+	height: 50px;
+}
+#checkout-buttons .checkout-but{
+	width: 135px;
+	height: 36px;
+	border: 0;
+	float: right;
+	background-color: RGB(229,64,68);
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	margin: 10px 20px 0 0;
+	cursor: pointer;
+}
+#checkout-buttons .checkout-but:hover{
+	background-color: RGB(238,78,80);
+}
+/*提交按钮END*/
+/*核对订单信息END*/
